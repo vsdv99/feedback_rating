@@ -27,6 +27,6 @@ btn.addEventListener('click',() => {
         thankYou.classList.remove('hidden')
         feedbackResult.textContent = `You selected ${feedbackContent} out of 5`
     }else{
-        alert('Please provide Feedback first')
+        alert('No feedback provided')
     }
 })
